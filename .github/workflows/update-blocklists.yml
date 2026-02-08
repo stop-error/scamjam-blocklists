@@ -1,0 +1,85 @@
+# This is a basic workflow to help you get started with Actions
+
+name: update-blocklists
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+
+    
+jobs:
+  update-blocklists:
+    runs-on: ubuntu-latest
+    permissions: 
+      contents: write
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+      - name: Update Blocklists
+        shell: pwsh
+        run: |
+
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}"
+
+          New-Item -Path "temp" -ItemType "Directory"
+
+          Set-Location "temp"
+          
+          $Files = @("spam-tlds-onlydomains.txt", "spam-tlds-allow-onlydomains.txt", "nrd-last-20-days.txt")
+          
+          foreach ($File in $Files) {
+              
+              [string]$Url
+              switch ($File) {
+                  { $File -eq "nrd-last-20-days.txt" } { $Url = "https://dl.cenk.app/nrd/nrd-last-20-days.txt"; Write-Output "Got Url: $Url" }
+                  default { $Url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/$File"; Write-Output "Got Url: $Url" }
+              }
+          
+              try {
+                  Write-Output "Downloading $File at $Url..."
+                  Invoke-WebRequest $Url -OutFile $File
+              } catch {
+                  Write-Error "Failed to download file $File! Will try to continue batch job." -ErrorAction Stop
+              }
+          
+              try {
+                  Write-Output "Removing comments..."
+                  $Temp = Get-Content $File | Where-Object {-not $_.Contains('#')}
+                  $Temp | Set-Content $File
+              } catch {
+                  Write-Error "Failed to remove comments from $File! Will try to continue batch job." -ErrorAction Stop
+              }
+              
+              try {
+                  Write-Output "Adding wildcards..."
+                  $Temp = Get-Content $File | ForEach-Object { "*." + $_ }  
+                  $Temp | Set-Content $File
+              } catch {
+                  Write-Error "Failed to add wildcards to $File! File will not be staged for upload. Will try to continue batch job." -ErrorAction Stop
+                  if (Test-Path $File -PathType Leaf) {
+                      Remove-Item $File
+                  }
+              }
+
+             try {
+                  Write-Output "Copying $File" 
+                  Copy-Item $File "../" -Force
+                  git add "../$File"
+              } catch {
+                 Write-Error "Failed to copy $File to git repo! Canceling since repo might not be intact." -ErrorAction Stop
+              }
+            
+          }
+          
+          Set-Location "../"
+          
+          git status  
+          git commit -m "update blocklists hosted in repo"
+          git push
