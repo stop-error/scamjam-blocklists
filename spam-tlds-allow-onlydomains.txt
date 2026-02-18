@@ -32,6 +32,7 @@
 *.reit.bar
 *.strem.bar
 *.voi.bar
+*.amphi.beer
 *.epg.best
 *.xhamster.best
 *.thescore.bet
@@ -86,6 +87,7 @@
 *.arduino.cc
 *.clashofmagic.cc
 *.coolkit.cc
+*.coopoo.cc
 *.crcon.cc
 *.datapump.cc
 *.dhilosnetworks.cc
@@ -194,6 +196,7 @@
 *.three60.degree
 *.push.delivery
 *.return-my.delivery
+*.ze.delivery
 *.xhamster.desi
 *.2fa.directory
 *.cursor.directory
@@ -336,6 +339,7 @@
 *.circles.life
 *.colorgame.life
 *.digitalcitizen.life
+*.fami.life
 *.iboost.life
 *.lifetime.life
 *.loveinfaith.life
@@ -368,6 +372,7 @@
 *.techaro.lol
 *.weblog.lol
 *.wpp.lol
+*.digitalize.ltd
 *.homebrew.ltd
 *.picsee.ltd
 *.swizzin.ltd
@@ -380,6 +385,7 @@
 *.warframe.market
 *.virgile.men
 *.speisekarte.menu
+*.viewthe.menu
 *.aire.ml
 *.amap.ml
 *.google.ml
@@ -551,6 +557,7 @@
 *.11ts.shop
 *.30grad.shop
 *.4id.shop
+*.aloedent.shop
 *.axisms.shop
 *.buergerspital.shop
 *.chessvibes.shop
@@ -558,6 +565,7 @@
 *.domainname.shop
 *.domene.shop
 *.durst.shop
+*.elbsand.shop
 *.epicdesk.shop
 *.eventix.shop
 *.freshtorge.shop
@@ -667,6 +675,7 @@
 *.glitchproductions.store
 *.hacksmith.store
 *.heavysaurus.store
+*.hom.store
 *.immich.store
 *.iqunix.store
 *.myexpresscarwash.store
@@ -699,6 +708,7 @@
 *.s-wings.surf
 *.filemoon.sx
 *.voe.sx
+*.swing.tennis
 *.air.tk
 *.bstweaker.tk
 *.budterence.tk
@@ -755,6 +765,7 @@
 *.vidstream.vip
 *.wetv.vip
 *.yesporn.vip
+*.swing.vision
 *.arizona.vote
 *.acro.website
 *.bestmotherfucking.website
@@ -822,6 +833,7 @@
 *.activated.win
 *.communities.win
 *.debloat.win
+*.ios-countdown.win
 *.patriots.win
 *.vaultcord.win
 *.nostr.wine
@@ -831,6 +843,7 @@
 *.koding.work
 *.mirror.work
 *.schueller.work
+*.spiegel.work
 *.bevisioneers.world
 *.boo.world
 *.calckey.world
