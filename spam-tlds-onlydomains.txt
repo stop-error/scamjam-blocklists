@@ -156,7 +156,6 @@
 *.markets
 *.mba
 *.men
-*.menu
 *.miami
 *.ml
 *.moda
