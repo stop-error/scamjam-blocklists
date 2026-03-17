@@ -75,6 +75,7 @@
 *.dpdns.org
 *.eco
 *.edu.eu
+*.energy
 *.engineer
 *.enterprises
 *.equipment
@@ -264,6 +265,7 @@
 *.vision
 *.vote
 *.voto
+*.voyage
 *.wang
 *.webcam
 *.website

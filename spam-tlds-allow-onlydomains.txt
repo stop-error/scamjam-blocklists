@@ -223,6 +223,7 @@
 *.elli.eco
 *.mer.eco
 *.play.eco
+*.bigdig.energy
 *.biqu.equipment
 *.ticketco.events
 *.infosec.exchange
@@ -379,6 +380,7 @@
 *.techaro.lol
 *.weblog.lol
 *.wpp.lol
+*.football.london
 *.digitalize.ltd
 *.homebrew.ltd
 *.picsee.ltd
@@ -449,6 +451,7 @@
 *.sheet.new
 *.site.new
 *.slide.new
+*.coupa.ng
 *.google.com.ng
 *.clash.ninja
 *.poe.ninja
@@ -476,6 +479,7 @@
 *.mastodon.online
 *.mrprice.online
 *.open.online
+*.order.online
 *.owncast.online
 *.photostore24.online
 *.radarpayment.online
@@ -733,6 +737,7 @@
 *.archive.today
 *.futurology.today
 *.lemmy.today
+*.oceanhero.today
 *.oldweb.today
 *.som.today
 *.type.today
@@ -827,6 +832,7 @@
 *.survivors.wiki
 *.tajrobe.wiki
 *.tardis.wiki
+*.thefitness.wiki
 *.thehomelab.wiki
 *.tilde.wiki
 *.twewy.wiki
