@@ -123,6 +123,7 @@
 *.health
 *.healthcare
 *.help
+*.hl.cn
 *.homes
 *.hot
 *.house
