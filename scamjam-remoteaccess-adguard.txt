@@ -2,13 +2,13 @@
 ||support.services.microsoft.com^
 
 ! Parsec
-||parsec.app
+||parsec.app^
 
 ! Zoho Assisst
 ||zohoassist.com^
 
 ! RemotePC
-remotepc.com
+||remotepc.com^
 ||remotedesktop.com^
 
 ! TeamViewer
