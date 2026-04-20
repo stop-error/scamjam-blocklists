@@ -83,6 +83,7 @@
 *.commonspirit.careers
 *.nabu.casa
 *.doe.cash
+*.redtiger.cash
 *.10gen.cc
 *.adguard-vpn.cc
 *.akami-solutions.cc
@@ -260,6 +261,7 @@
 *.player.foundation
 *.cdn.fun
 *.chinaq.fun
+*.disasterpr.fun
 *.enza.fun
 *.neal.fun
 *.patterncraft.fun
@@ -344,6 +346,7 @@
 *.rdl.ink
 *.shrinkme.ink
 *.simple.ink
+*.spaceforce.ink
 *.sumerian.ink
 *.work.ink
 *.returns.international
@@ -616,6 +619,7 @@
 *.owl-dampfer.shop
 *.oxiline.shop
 *.prohibited.shop
+*.scayle.shop
 *.schweden.shop
 *.scorpions.shop
 *.sentry.shop
