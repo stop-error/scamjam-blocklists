@@ -87,6 +87,7 @@
 *.faith
 *.family
 *.fan
+*.fans
 *.fashion
 *.finance
 *.financial
@@ -105,6 +106,7 @@
 *.fyi
 *.ga
 *.games
+*.garden
 *.gdn
 *.gent
 *.gift
@@ -116,6 +118,7 @@
 *.gq
 *.gratis
 *.green
+*.gripe
 *.guide
 *.guru
 *.hair
@@ -142,6 +145,7 @@
 *.lgbt
 *.life
 *.lifestyle
+*.living
 *.llc
 *.llp
 *.loan
