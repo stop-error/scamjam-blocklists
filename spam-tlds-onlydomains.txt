@@ -134,6 +134,7 @@
 *.icu
 *.immo
 *.ink
+*.insure
 *.international
 *.irish
 *.jetzt
