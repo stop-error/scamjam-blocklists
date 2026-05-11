@@ -49,6 +49,7 @@
 *.clothing
 *.club
 *.cm
+*.co.com
 *.college
 *.computer
 *.consulting
@@ -262,7 +263,9 @@
 *.trading
 *.tube
 *.uno
+*.us.com
 *.us.kg
+*.us.org
 *.vacations
 *.vegas
 *.ventures
