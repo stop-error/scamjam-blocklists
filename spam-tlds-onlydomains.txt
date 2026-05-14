@@ -51,7 +51,6 @@
 *.cm
 *.co.com
 *.college
-*.com.cn
 *.computer
 *.consulting
 *.cool
@@ -185,7 +184,6 @@
 *.onl
 *.online
 *.ooo
-*.org.cn
 *.partners
 *.parts
 *.party
