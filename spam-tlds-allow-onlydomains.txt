@@ -67,7 +67,6 @@
 *.mysubwaytoolbox.biz
 *.netcetera.biz
 *.notebookcheck.biz
-*.oe24cdn.biz
 *.ooshahwa.biz
 *.panasonic.biz
 *.slussen.biz
@@ -108,6 +107,7 @@
 *.imgus.cc
 *.is.cc
 *.itead.cc
+*.kktix.cc
 *.libstc.cc
 *.lilygo.cc
 *.lurl.cc
@@ -138,6 +138,7 @@
 *.yipee.cc
 *.yz168.cc
 *.zcyph.cc
+*.found.center
 *.mein-kunden.center
 *.oh.center
 *.priv.center
@@ -332,6 +333,7 @@
 *.watcher.guru
 *.webcal.guru
 *.lunar.haus
+*.flo.health
 *.sca.health
 *.severance.healthcare
 *.crisp.help
@@ -375,6 +377,7 @@
 *.iboost.life
 *.lifetime.life
 *.loveinfaith.life
+*.opentix.life
 *.stepone.life
 *.via.life
 *.yiff.life
@@ -479,6 +482,7 @@
 *.coupa.ng
 *.google.com.ng
 *.clash.ninja
+*.giveaway.ninja
 *.poe.ninja
 *.protomedia.ninja
 *.tgtg.ninja
@@ -607,6 +611,7 @@
 *.buergerspital.shop
 *.chessvibes.shop
 *.cineorder.shop
+*.der-marmeladenladen.shop
 *.derweinladen.shop
 *.domainname.shop
 *.domene.shop
@@ -620,6 +625,7 @@
 *.geekchic.shop
 *.grnk.shop
 *.grog.shop
+*.gurkistan.shop
 *.henssler.shop
 *.kalypso.shop
 *.layers.shop
@@ -628,6 +634,7 @@
 *.music-merchant.shop
 *.myshopline.shop
 *.narpy.shop
+*.neue.shop
 *.neurosama.shop
 *.nocut.shop
 *.nordland.shop
@@ -680,6 +687,7 @@
 *.forecast.solar
 *.optimizer.solar
 *.ariadne.space
+*.blinko.space
 *.cslogs.space
 *.dragonscave.space
 *.drgns.space
@@ -704,6 +712,7 @@
 *.nuvioapp.space
 *.ocr.space
 *.oldbytes.space
+*.pod.space
 *.qwik.space
 *.roguecorp.space
 *.scurra.space
@@ -720,6 +729,7 @@
 *.bigtimerush.store
 *.bigtimerushuk.store
 *.cleanmasters.store
+*.cnckitchen.store
 *.ettoresoftware.store
 *.fbits.store
 *.g-h.store
@@ -737,6 +747,7 @@
 *.rokomari.store
 *.shoplazza.store
 *.shopware.store
+*.sofascore.store
 *.stan.store
 *.tatemcraeeu.store
 *.tatemcrae.store
@@ -826,6 +837,7 @@
 *.yesporn.vip
 *.swing.vision
 *.arizona.vote
+*.esc.vote
 *.acro.website
 *.bestmotherfucking.website
 *.eddie.website
@@ -906,6 +918,7 @@
 *.schueller.work
 *.spiegel.work
 *.starlightnet.work
+*.betterme.world
 *.bevisioneers.world
 *.boo.world
 *.calckey.world
