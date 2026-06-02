@@ -6,9 +6,6 @@ name: update-blocklists
 on:
   schedule:
     - cron: "0 8 * * *"
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 
@@ -20,7 +17,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Update Blocklists
         shell: pwsh
         run: |
