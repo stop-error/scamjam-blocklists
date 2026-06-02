@@ -29,13 +29,13 @@ jobs:
 
           Set-Location "temp"
           
-          $Files = @("spam-tlds-onlydomains.txt", "spam-tlds-allow-onlydomains.txt", "nrd-last-20-days.txt")
+          $Files = @("spam-tlds-onlydomains.txt", "spam-tlds-allow-onlydomains.txt", "nrd-last-30-days.txt")
           
           foreach ($File in $Files) {
               
               [string]$Url
               switch ($File) {
-                  { $File -eq "nrd-last-20-days.txt" } { $Url = "https://dl.cenk.app/nrd/nrd-last-20-days.txt"; Write-Output "Got Url: $Url" }
+                  { $File -eq "nrd-last-30-days.txt" } { $Url = "https://dl.cenk.app/nrd/nrd-last-30-days.txt"; Write-Output "Got Url: $Url" }
                   default { $Url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/$File"; Write-Output "Got Url: $Url" }
               }
           
