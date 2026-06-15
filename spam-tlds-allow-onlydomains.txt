@@ -197,6 +197,7 @@
 *.eagle.cool
 *.shirtz.cool
 *.upbitit.cool
+*.ymq.cool
 *.hammertime.cyou
 *.prometko.cyou
 *.daily.dad
@@ -580,6 +581,7 @@
 *.palaugov.pw
 *.petridish.pw
 *.plutonium.pw
+*.psono.pw
 *.tabula-rasa.pw
 *.xor.pw
 *.zok.pw
@@ -659,6 +661,7 @@
 *.swedish-supplements.shop
 *.terminal.shop
 *.urlbluemedia.shop
+*.waldhaus.shop
 *.weinbibliothek.shop
 *.weinwunder.shop
 *.wielrenner.shop
