@@ -652,6 +652,7 @@
 *.nordland.shop
 *.owl-dampfer.shop
 *.oxiline.shop
+*.papaplatte.shop
 *.prohibited.shop
 *.redbrain.shop
 *.scayle.shop
@@ -758,6 +759,7 @@
 *.myshopline.store
 *.pbshop.store
 *.peugeot.store
+*.pyrocynical.store
 *.roble.store
 *.rokomari.store
 *.shoplazza.store
@@ -767,6 +769,7 @@
 *.tatemcraeeu.store
 *.tatemcrae.store
 *.timberjacks.store
+*.xqc.store
 *.affinity.studio
 *.ai.studio
 *.firebase.studio
