@@ -83,6 +83,7 @@
 *.yougame.biz
 *.niim.blue
 *.spook.boo
+*.mintlify.builders
 *.sideb.buzz
 *.scalable.capital
 *.commonspirit.careers
@@ -260,7 +261,6 @@
 *.booking.expert
 *.malware.expert
 *.ktr.fan
-*.lemmy.fan
 *.os.fan
 *.haal.fashion
 *.raster.finance
@@ -756,6 +756,7 @@
 *.uexcorp.space
 *.dyn.sport
 *.adidashardware.store
+*.benz.store
 *.beyondagency.store
 *.bigtimerush.store
 *.bigtimerushuk.store
@@ -798,7 +799,6 @@
 *.shiki.style
 *.encode.su
 *.jpg4.su
-*.jpg6.su
 *.promportal.su
 *.saint2.su
 *.ada.support
@@ -951,7 +951,6 @@
 *.vaultcord.win
 *.nostr.wine
 *.doesmycode.work
-*.elphago.work
 *.frame.work
 *.koding.work
 *.mirror.work
