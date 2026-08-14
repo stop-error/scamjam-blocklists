@@ -105,6 +105,7 @@
 *.dhilosnetworks.cc
 *.dict.cc
 *.dns36.cc
+*.eay.cc
 *.fanbox.cc
 *.fiedler.cc
 *.fito.cc
@@ -254,6 +255,7 @@
 *.homewizard.energy
 *.octopus.energy
 *.biqu.equipment
+*.dandelion.events
 *.lyyti.events
 *.ticketco.events
 *.infosec.exchange
@@ -301,6 +303,7 @@
 *.ost2.fyi
 *.poyoanon.fyi
 *.recollect.fyi
+*.seized.fyi
 *.vercel.fyi
 *.wpt.fyi
 *.google.ga
@@ -671,6 +674,7 @@
 *.prohibited.shop
 *.redbrain.shop
 *.scayle.shop
+*.schneckenpost.shop
 *.schweden.shop
 *.scorpions.shop
 *.sentry.shop
